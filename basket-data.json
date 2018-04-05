@@ -1,0 +1,30 @@
+[{
+    "basketID":"1",
+    "items": [{
+        "name": "Pizza",
+        "quantity": 2,
+        "unitprice": 10.23,
+        "discountpercent": 0.8
+    },
+    {
+        "name": "Ice Cream",
+        "quantity": 1,
+        "unitprice": 10.83,
+        "discountpercent": 0
+    }]
+},
+{
+    "basketID":"2",
+    "items": [{
+        "name": "Tomato",
+        "quantity": 12,
+        "unitprice": 0.32,
+        "discountpercent": 0
+    },
+    {
+        "name": "Cucumber",
+        "quantity": 2,
+        "unitprice": 0.85,
+        "discountpercent": 0.2
+    }]
+}]
