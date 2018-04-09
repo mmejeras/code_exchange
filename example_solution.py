@@ -41,13 +41,12 @@ def parse_basket(basket_filename='default.json'):
             return baskets_info
 
     except Exception as e:
-        print("The file could not be opened: {}".format(e))
+        print("An exception occured: {}".format(e))
         return {}
 
 baskets_info = parse_basket('basket-data.json')
 
 if baskets_info != {}:
-
     print('Average of basket sizes: ', str(baskets_info['average']))
     print('Median of basket sizes: ', str(baskets_info['median']))
     print('Top quartile of basket sizes: ', str(baskets_info['top_quartile']))
